@@ -1,0 +1,27 @@
+
+.varun{
+    color:greenyellow; 
+   display:flex;
+   justify-content:right;
+   flex-direction: row;
+   background-color: black;
+   height:10vh;
+   
+}
+.arun{
+color:pink;
+display:flex;
+width:20%;
+list-style-type:none ;
+justify-content:space-around;
+align-items: center;
+
+}
+.karun{
+   
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+    align-items: center;
+    margin-left:10px
+}
