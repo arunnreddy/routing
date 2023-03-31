@@ -1,12 +1,129 @@
-<!DOCTYPE html>
+<!-- <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="App.js"></script>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>hello</h1>
+  <div class="varun">
+    <p id="jan"></p>
+    <input type="file" id="file-upload" multiple="true"/>
+    <button onclick="validateFileType()">Upload</button>
+     
+    <div class="karun">ROUTING</div>
+        <div class="arun">
+          <li>HOME</li>
+         <li>ABOUT</li>
+      <li>DASHBOARD</li>
+       
+        </div>
+      </div>
+      <script>
+        function arun(){
+          document.write("<h1>hai</h1>")
+        }
+        arun()
+        
+        function validateFileType() {
+        var hai = document.getElementById('file-upload');
+     <input type="file" id="file-upload" multiple="true"/>
+
+        var files = hai.files
+        console.log("hai",hai)
+        console.log("files",files)
+        if(files.length==0){
+            alert("Please choose a file first...");
+            return false;
+        }else{
+            var filename = files[0].name;
+            console.log("filename",filename)
+ 
+            /* getting file extenstion eg- .jpg,.png, etc */
+            var extension = filename.substr(filename.lastIndexOf("."));
+ 
+            /* define allowed file types */
+            var allowedExtensionsRegx = /(\.txt|\.jpeg|\.png|\.gif)$/i;
+ 
+            /* testing extension with regular expression */
+            var isAllowed = allowedExtensionsRegx.test(extension);
+ 
+            if(isAllowed){
+                alert("File type is valid for the upload");
+                /* file upload logic goes here... */
+            }else{
+                alert("Invalid File Type.");
+                return false;
+            }
+        }
+    }
+    </script>
+ 
+</body>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="App.js"></script>
+</head>
+<body>
+  <p id="demo">ss</p>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
